@@ -27,7 +27,7 @@ class Command(BaseCommand):
     
     def handle(self, *args, **kwargs):
         if len(sys.argv) != 3:
-            print('usage : manage import_residency_codes "residency_codes_tmp.csv"')
+            print('Import issue')
             sys.exit(1)
 
         import_cars(sys.argv[2])
