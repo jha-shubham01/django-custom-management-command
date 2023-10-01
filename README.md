@@ -1,7 +1,7 @@
 # Django Custom Management Command
 
 # Description
-This project shows how to create Django custom managment command and use them.
+This project shows how to create Django custom management commands and use them.
 
 ## Technology Stack
 Backend: Django <br />
@@ -14,8 +14,9 @@ Prerequisites: Python3, pipenv
 2. Activate the virtual environment (pipenv shell)
 3. Install all the packages (pipenv install)
 4. Navigate inside the project (cd src)
-5. Run the backend server (python manage.py runserver)
-6. Visit the server link (http://localhost:8000/)
+5. Run the management command (python manage.py <COMMANDNAME>)
+6. Run the backend server (python manage.py runserver)
+7. Visit the server link (http://localhost:8000/)
 
 ## Video Demo
 Part 1: https://youtu.be/bltiR08-xbs <br />
